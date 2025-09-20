@@ -54,9 +54,10 @@ Runs at 👉 http://localhost:8000
 ```
 
 ### 3 Frontend Setup (React)
+```bash
 cd frontend
 npm install
 npm start
-
+```
 
 
