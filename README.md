@@ -10,8 +10,8 @@ It emphasizes **role-based access**, organization, and a fun, user-friendly inte
 ---
 
 ## 📂 Project Structure
-backend/ # FastAPI backend (JWT auth, MongoDB integration, CORS, CRUD APIs)
-frontend/ # React frontend (responsive UI, polished styling, role-based access)
+-backend/ # FastAPI backend (JWT auth, MongoDB integration, CORS, CRUD APIs)
+-frontend/ # React frontend (responsive UI, polished styling, role-based access)
 
 
 ---
