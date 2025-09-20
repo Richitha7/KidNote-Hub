@@ -1,27 +1,62 @@
-Children Notes App - FINAL (NoSQL + Polished Frontend)
+KidNote-Hub : Role-Based Notes App for Children & Parents
 =====================================================
 
-What's included:
-- backend/: FastAPI app (MongoDB via pymongo). JWT auth, CORS, full notes and folders CRUD.
-- frontend/: React app (create-react-app structure). Polished UI with responsive layout and nice styling.
-- frontend/public/assets/screenshot.png: demo screenshot image included.
-- INTERVIEW_NOTES.md: step-by-step demo script and talking points.
+KidNotes is a full-stack **note-taking web application** designed for children and parents.  
+It emphasizes **role-based access**, organization, and a fun, user-friendly interface.  
 
-Quick start:
-1. Start MongoDB (Docker recommended):
-   docker run -p 27017:27017 -d --name mongodb mongo:6
-2. Backend:
-   cd backend
-   python -m venv venv
-   source venv/bin/activate   (Windows: venv\Scripts\activate)
-   pip install -r requirements.txt
-   uvicorn main:app --reload --port 8000
-3. Frontend:
-   cd frontend
-   npm install
-   npm start
-4. Open http://localhost:3000 to use the app.
+- **Children**: Create, edit, and organize notes into folders (with tags & checklists).  
+- **Parents**: Log in to view children’s notes (read-only).  
 
-Notes:
-- Signup: create a parent first, then create a child and set parent_username to parent's username.
-- Login returns a Bearer token used automatically by the frontend.
+---
+
+## 📂 Project Structure
+backend/ # FastAPI backend (JWT auth, MongoDB integration, CORS, CRUD APIs)
+frontend/ # React frontend (responsive UI, polished styling, role-based access)
+
+
+---
+
+##  Features
+- Authentication with **JWT**  
+- Role-based access (Parent = view-only, Child = full CRUD)  
+- Organize notes into folders  
+- Tag notes for easy categorization  
+- ☑Checkbox-style notes (to-do lists)  
+- Modern, responsive, kid-friendly UI  
+
+---
+
+## ⚙️ Quick Start
+
+### 1️ Start MongoDB
+Since we’re using **MongoDB Compass**, just make sure your MongoDB service is running locally.  
+
+Default connection string (already in backend):
+mongodb://localhost:27017
+
+
+---
+
+### 2️ Backend Setup (FastAPI)
+```bash
+cd backend
+python -m venv venv
+# Activate venv
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+
+Runs at 👉 http://localhost:8000
+```
+
+### 3 Frontend Setup (React)
+cd frontend
+npm install
+npm start
+
+
+
