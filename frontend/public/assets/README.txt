@@ -1,0 +1,1 @@
+This folder contains assets used by the frontend, including a screenshot image (screenshot.png).
