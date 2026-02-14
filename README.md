@@ -9,9 +9,6 @@ It emphasizes **role-based access**, organization, and a fun, user-friendly inte
 
 ---
 
-## Demo Video
-[Watch the demo video here](https://drive.google.com/file/d/14tUgninD8UBvxkqMrG64G5ynXeIfyUnD/view?usp=drive_link)
-
 
 ## Project Structure
 
